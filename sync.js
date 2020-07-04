@@ -1,4 +1,4 @@
-// Call five .txt write "Hello Node.js" in sync form 
+// Call five .txt write "Hello Node.js" in sync form using  fs.writeFileSync
 const fs = require('fs');
 
 for (let i = 1; i <= 5; i++){
@@ -8,7 +8,7 @@ for (let i = 1; i <= 5; i++){
 }
 //================================================
 
-//And now, i write .txt with assync form! All in same time!
+//And now, i write .txt with assync form! All in same time! using fs.writeFile
 
 const fs = require('fs');
 
